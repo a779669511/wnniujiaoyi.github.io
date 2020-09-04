@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript">
+			//轮播
+	var index=0;
+function xianshi(){
+	index++;
+var a=document.getElementsByClassName("img");
+    if(index==a.length) index=0;
+	for(var i=0;i<a.length;i++){
+		a[i].style.display='none';
+		}
+	a[index].style.display='block';
+}	
+setInterval("xianshi()",3000);
+	//显示时间
+		function shijian(){
+			var t1=new Date();
+  document.getElementById("vp").innerHTML=t1.toLocaleString();
+		}
+		window.setInterval("shijian()",1000);
+
+	</script>
+</head>
+
+<body>
+	<div id="box">
+	<div id="tou">
+	<img src="img/捕获.PNG"/>
+		</div>
+	<div id="menu">
+		<div id="shou" > <a href="#">首页</a></div>
+		<div id="lian"> <a href="lianxi02.html">联系方式</a></div>
+		</div>
+		<div id="vp"></div>
+	<div id="menu1">
+		<h2 class="j">简介</h2>
+		<p class="x">龙盛军，从事畜牧交易经济，有良好的个</br></br>人专业技术和品德修养，良好的谈判、沟通及</br></br>表达能力；更具备丰富的市场交易经验和工作</br></br>经验。能很好的完成各种牛牲畜交易！</p>
+		</div>
+		<div id="pop1">
+	<img class="img pp1" src="img/11.jpg"/>
+	<img class="img pp2" src="img/7.jpg"/>
+	<img class="pp3" src="img/6.jpg"/>
+		</div>
+<div id="m2">
+		<div id="l">联系我们</div>
+		<div id="call">
+			<p>联系人：<p class="long">龙盛军</p></p></br>
+		<p class="d">电话:17585419249</p></br></br>
+		<p>邮箱：1448111819@qq.com</p></br>
+		<p>网址:weiningnioujiaoyi.top</p></br>
+		<p>地址:贵州省毕节市威宁县小海镇</p>
+		</div>
+<div id="tu2">
+<img src="img/1.jpg.png"/>
+</div>
+<div id="menu2">
+<h2 class="chang">市场展示</h2>
+	<div id="tu3">
+	<img class="t1" src="img/8.jpg"/>
+	<img class="t2" src="img/9.jpg"/>
+	<img class="t3" src="img/10.jpg"/>
+	</div>
+	<div id="tu4">
+	<img class="t4" src="img/10.jpg"/>
+	<img class="t5" src="img/11.jpg"/>
+	<img class="t6" src="img/12.jpg"/>
+	</div>
+</div>
+<div id="menu3">
+<h2 class="shen">牲畜展示</h2>
+	<div id="tu5">
+	<img class="t7" src="img/7.jpg"/>
+	<img class="t8" src="img/16.jpg"/>
+	</div>
+	<div id="tu6">
+	<img class="t9" src="img/6.jpg"/>
+	<img class="t10" src="img/4.jpg"/>
+	</div>
+	<div id="tu7">
+	<img class="t11" src="img/5.jpg"/>
+	<img class="t12" src="img/15.jpg"/>
+	</div>
+	<div id="tu8">
+	<img class="t13" src="img/14.jpg"/>
+	<img class="t14" src="img/3.jpg"/>
+	</div>
+</div>
+<div id="footer">
+<p class="f1">图片版权所有 盗者必究</p>
+<p class="f2">电话：17585419249（微信同号）</p>
+<p class="f3">地址：贵州省毕节市威宁县小海镇</p>
+</div>
+	</div>
+</body>
+</html>

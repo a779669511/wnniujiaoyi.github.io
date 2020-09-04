@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0; margin: 0; border: 0;}
+#box{width: 100%;}
+#tou img{
+	width: 1300px;
+	height: 400px;
+	margin-left: 1px;
+}
+#menu{background-color: #3055B9;
+      height: 50px;
+      width: 1300px;
+	margin-top: 5px;
+      margin-left: 1px;}
+#vp{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#menu a:link,a:visited{
+	width: 100%;
+	color: #FAFAFA;
+	text-decoration: none;   
+}
+#menu a:hover{
+	color: #DEEF12;
+	text-decoration: underline;
+    border: 1px solid #DEEF12;
+}
+#shou{
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+#lian{
+	float: left;
+	margin-left: 700px;
+	margin-top: 15px;
+}
+.j{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 28px;
+}
+.x{
+	text-indent: 2em;
+	margin-top: 30px;
+}
+#menu1{
+	float: left;
+	width: 320px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 15px;
+	border: 1px solid #A2B6BE;
+	background-color:#D6E9EF;
+}
+#pop1{
+	float: left;
+	width: 500px;
+	margin-top: 50px;
+}
+#pop1 img{
+	width: 500px;
+	height: 300px;
+	margin-left: 5px;
+	border: 1px solid #A2B6BE;
+}
+.pp1{
+	display: block;
+}
+.pp2{
+	display: none;
+}
+.pp3{
+	display: none;
+}
+#m2{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-top: -300px;
+	margin-left:850px;
+	border: 1px solid #A2B6BE;
+	background-color: antiquewhite;
+	background-position: center;
+}
+#l{
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #1F1AE7;
+}
+#call{
+	margin-left: 10px;
+	margin-top: 40px;
+	width: 250px;
+	height: 210px;
+}
+.long{
+	float: left;
+	margin-left: 55px;
+	margin-top: -20px;
+	font-size: 22px;
+	color: #E71417;
+}
+.d{
+	float: left;
+}
+#tu2 img{
+	float: left;
+	margin-left: 225px;
+	margin-top: -250px;
+	width: 150px;
+}
+.chang{
+	float: left;
+	margin-left: -800px;
+	margin-top: 50px;
+	color:#CB6406;
+	font-weight: bold;
+	font-size: 32px;
+}
+.t1{
+	float: left;
+	margin-left: -800px;
+	width: 350px;
+	height: 250px;
+	margin-top: 100px;
+	border: 2px solid #12D818;
+}
+.t2{
+	float: left;
+	margin-left: -390px;
+	width: 350px;
+	height:  250px;
+	margin-top: 100px;
+	border: 2px solid #12D818;
+}
+.t3{
+	float: left;
+	margin-left: 20px;
+	width: 350px;
+	height: 250px;
+	margin-top: 100px;
+	border: 2px solid #12D818;
+}
+.t4{
+	float: left;
+	margin-left: -1160px;
+	width: 350px;
+	height:  250px;
+	margin-top: 400px;
+	border: 2px solid #12D818;
+}
+.t5{
+	float: left;
+	margin-left: -750px;
+	width: 350px;
+	height: 250px;
+	margin-top: 400px;
+	border: 2px solid #12D818;
+}
+.t6{
+	float: left;
+	margin-left: 10px;
+	width: 350px;
+	height: 250px;
+	margin-top: 45px;
+	border: 2px solid #12D818;
+}
+#menu3{
+	margin-top: 700px;
+}
+.shen{
+	float: left;
+	margin-left: -800px;
+	margin-top: 50px;
+	color:#975ACA;
+	font-weight: bold;
+	font-size: 32px;
+}
+.t7{
+	float: left;
+	margin-left: -850px;
+	width: 600px;
+	height:  400px;
+	margin-top: 100px;
+	border: 2px solid #A758E5;
+}
+.t8{
+	float: left;
+	margin-left: -230px;
+	width: 600px;
+	height:  400px;
+	margin-top: 100px;	
+	border: 2px solid #A758E5;		
+}
+.t9{
+	float: left;
+	margin-left:-1210px;
+	width:600px;
+	height:400px;
+	margin-top:550px;
+	border: 2px solid #A758E5;
+}
+.t10{
+	float: left;
+	margin-left: -220px;
+	width:600px;
+	height:400px;
+	margin-top: 50px;
+	border: 2px solid #A758E5;
+}
+.t11{
+	float: left;
+	margin-left:-1220px;
+	width:600px;
+	height:400px;
+	margin-top:500px;
+	border: 2px solid #A758E5;
+}
+.t12{
+	float: left;
+	margin-left: -220px;
+	width: 600px;
+	height:  400px;
+	margin-top: 50px;
+	border: 2px solid #A758E5;
+}
+.t13{
+	float: left;
+	margin-left:-1220px;
+	width:600px;
+	height:400px;
+	margin-top:500px;
+	border: 2px solid #A758E5;
+}
+.t14{
+	float: left;
+	margin-left: -220px;
+	width: 600px;
+	height:  400px;
+	margin-top: 48px;
+	border: 2px solid #A758E5;
+}
+#footer{
+	float: left;
+	width: 1300px;
+	height: 200px;
+	margin-left: -850px;
+	margin-top: 10px;
+	background-color:#3055B9;
+	color: #F8F8F8;
+}
+.f1{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.f2{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.f3{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+}
